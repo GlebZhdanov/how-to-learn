@@ -24,7 +24,7 @@
 }
 
 .logo {
-  background-image: url(/images/logo_place_header.svg);
+  background-image: url(../images/logo_place_header.svg);
 }
 
 .logo_place_header {
@@ -71,13 +71,17 @@
   right: 0;
   z-index: 1;
 }
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
 /* Конец CSS для блока header */
 /* Начало CSS для блока description */
 .descripton {
   padding-top: 100px;
 }
 
-.two-columbs {
+.two-columns {
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -86,7 +90,7 @@
 
 }
 
-.two-columbs__brief {
+.two-columns__brief {
   width: 175px;
   color:#2f80ed;
   font-size: 18px;
@@ -95,12 +99,12 @@
   align-self: flex-start;
 }
 
-.two-columbs__main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
 }
 
-.two-columbs__paragraph {
+.two-columns__paragraph {
   color: #000000;
   font-size: 24px;
   line-height: 34px;
@@ -108,7 +112,7 @@
   margin: 0;
 }
 
-.two-columbs__span-accent {
+.two-columns__span-accent {
   color: #000000;
   font-size: 24px;
   line-height: 34px;
@@ -177,14 +181,10 @@
 .feyman__title {
   width: 648px;
   margin: 100px auto 0;
-}
-
-.feynman__heading {
   font-size: 120px;
   line-height: 1.15;
   font-weight: bold;
   text-align: center;
-  margin: 0;
 }
 
 .feyman__subtitle {
@@ -202,20 +202,16 @@
   position: absolute;
   bottom: 50%;
   right: 48px;
-}
-.feyman__detailed {
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
   text-decoration: none;
-}
-
-.feynman__picture {
-  width: 867px;
-  height: 637px;
+  color: #2f80ed;
 }
 
 .feynman__image {
+  width: 867px;
+  height: 637px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -253,7 +249,7 @@
   height: 877px;
   z-index: 1;
   position: absolute;
-  right: -320px;
+  right: -160px;
   top: 0;
 }
 /* Конец CSS для блока kaufman  */
@@ -282,10 +278,11 @@
 }
 
 .logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
   width: 183px;
   height: 35px;
   background-repeat: no-repeat;
-  
+
 }
 .footer__author {
   margin: 18px 0;
@@ -316,7 +313,7 @@
 }
 
 .footer__column-links:last-child{
-  margin: 20px 0 16px;
+  margin: 0 0 16px 0  ;
 }
 
 .footer__column_content_social {
@@ -334,7 +331,6 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-
 }
 
 .footer__icon:last-child {
