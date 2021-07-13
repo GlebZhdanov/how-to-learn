@@ -1,0 +1,12 @@
+.cards__item {
+  width: 240px;
+  margin: 60px 0 0;
+}
+.cards__item:last-of-type {
+  margin-left: 100px;
+  margin-right: auto;
+}
+.cards__item:nth-child(2) {
+  margin-left:100px;
+  margin-right: 100px;
+}

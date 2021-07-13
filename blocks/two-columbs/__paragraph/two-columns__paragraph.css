@@ -1,0 +1,20 @@
+.two-columns__paragraph {
+  color: #000000;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.two-columns__paragraph:first-child {
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
+}
+
