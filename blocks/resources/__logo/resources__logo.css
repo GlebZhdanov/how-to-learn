@@ -2,4 +2,10 @@
   width: 270px;
   height: 38px;
   margin-top: 80px;
+  opacity: 1;
+}
+
+.resources__logo:hover {
+  opacity: 0.6;
+  transition: all .4s linear;
 }

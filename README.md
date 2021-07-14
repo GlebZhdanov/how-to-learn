@@ -24,3 +24,10 @@
 
 
 Не нужно раскладывать CSS файлы модификаторов у которых одинаковое имя, но разные значения по разным папкам. Например, если у нас есть два модификатора - block_theme_light и block_theme_dark, то нужно создать одну папку _theme и положить в неё два CSS файла модификаторов - block_theme_light.css и block_theme_dark.css.
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
