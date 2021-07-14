@@ -7,10 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-/* Сброс отступов для h,p и маркеров для ul,li */
-* {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
+/* Сброс отступов для h,p и маркеров для ul,li */
