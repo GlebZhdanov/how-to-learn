@@ -4,6 +4,7 @@
   font-size: 30px;
   line-height: 42px;
   font-weight: normal;
+  align-self: baseline;
   opacity: 1;
   color: #2f80ed;
 }

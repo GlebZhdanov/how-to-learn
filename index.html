@@ -10,17 +10,18 @@
   <div class="page">
     <!-- Блок header -->
     <header class="header">
-      <img src="images/logo_place_header.svg" class="logo logo_place_header" alt="Логотип Яндекса">
+      <a href="#"><img src="images/logo_place_header.svg" class="logo logo_place_header" alt="Логотип Яндекса"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-      <a href="#" class="header__link">Узнать &rarr;</a></p>
-      <img src="./images/header-image.png" alt="Девочка и мальчик" class="header__main-illusrtaton">
+        <a href="#" class="header__link">Узнать &rarr;</a>
+      </p>
+      <img src="./images/header-image.png" alt="Девочка и мальчик" class="header__main-illustration">
       <div class="rotation header__square-pic">
       </div>
     </header>
     <main class="content">
       <!-- Блок description -->
-      <section class="descripton">
+      <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -38,27 +39,27 @@
           <div class="cards__item">
             <img src="./images/cards-attention.png" class="cards__image" alt="Книга">
             <h3 class="cards__title">Два вида внимания</h3>
-            <p class="cards__descripton">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
           <div class="cards__item">
             <img src="./images/cards-recall.png" class="cards__image" alt="Рекалл">
             <h3 class="cards__title">Recall</h3>
-            <p class="cards__descripton">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
           <div class="cards__item">
             <img src="./images/cards-interliving.png" class="cards__image" alt="Интерливинг" >
             <h3 class="cards__title">Интерливинг</h3>
-            <p class="cards__descripton">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
             <img src="./images/cards-question.png" class="cards__image" alt="Вопросы">
             <h3 class="cards__title">Вопросы</h3>
-            <p class="cards__descripton">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
           <div class="cards__item">
             <img src="./images/cards-competence.png" class="cards__image" alt="Иллюзия">
             <h3 class="cards__title">Иллюзия компетентности</h3>
-            <p class="cards__descripton">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
         </div>
       </section>
@@ -67,9 +68,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-         <iframe class="video__iframe" type="text/html" width="515" height="316"
-          src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
-          <iframe class="video__iframe" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
         </div>
       </section>
       <!-- Блок oakley-->
@@ -100,7 +100,7 @@
           <div class="table__cell">
             <h3 class="table__heading">2,1 миллиарда</h3>
             <p class="table__text">Число нуждающихся в повышение квалификации</p>
-            <p class="table__text table__text_resetting-margins">Всемирный банк,2017</p>
+            <p class="table__text">Всемирный банк,2017</p>
           </div>
           <div class="table__cell">
             <h3 class="table__heading">1000 терабайт</h3>
@@ -113,7 +113,7 @@
           <div class="table__cell">
             <h3 class="table__heading">420 миллионов</h3>
             <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="table__text table__text_resetting-margins">Всемирный банк,2017</p>
+            <p class="table__text">Всемирный банк,2017</p>
           </div>
           <div class="table__cell">
             <h3 class="table__heading">17–20 лет</h3>
@@ -188,27 +188,36 @@
             <h3 class="table__heading table__heading_theme_dark">10</h3>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
-          <img src="images/kaufman-triangle.svg" class="kaufman__triangle rotation" alt="Синий треугольник">
+          <div class="kaufman__triangle rotation">
+          </div>
         </div>
       </section>
       <!-- Блок resources -->
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <nav class="resources__logo-zone">
-          <a href><img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="Арзама"></a>
-          <a href><img src="./images/logo/resources-n1.svg" class="resources__logo" alt="Н плюс один"></a>
-          <a href><img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="Стрелка"></a>
-          <a href><img src="./images/logo/resources-polka.svg" class="resources__logo" alt="Полка"></a>
-        </nav>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="#"><img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="Арзама"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/logo/resources-n1.svg" class="resources__logo" alt="Н плюс один"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="Стрелка"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/logo/resources-polka.svg" class="resources__logo" alt="Полка"></a>
+          </li>
+        </ul>
       </section>
     </main>
     <!-- Блок footer -->
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img src="images/logo_place_footer.svg" class="logo logo_place_footer" alt="Логотип Яндекса">
-          <p class="footer__author">&#169;2021.Жданов Глеб</p>
+          <a href="#"><img src="images/logo_place_footer.svg" class="logo logo_place_footer" alt="Логотип Яндекса"></a>
+          <p class="footer__author">&copy;;2021.Жданов Глеб</p>
         </div>
         <div class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
